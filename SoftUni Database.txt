@@ -4807,3 +4807,5 @@ select FirstName, MiddleName, LastName from Employees
 select FirstName + '.' + LastName + '@softuni.bg' as [Full Email Address]
 from Employees
 
+select distinct Salary from Employees
+
