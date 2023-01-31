@@ -4809,3 +4809,6 @@ from Employees
 
 select distinct Salary from Employees
 
+select * from Employees
+where JobTitle = 'Sales Representative'
+
