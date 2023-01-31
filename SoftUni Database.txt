@@ -4794,3 +4794,6 @@ ALTER TABLE Addresses
 ADD CONSTRAINT FK_Addresses_Towns FOREIGN KEY(TownID)
 REFERENCES Towns(TownID)
 GO
+
+
+select * from Departments
