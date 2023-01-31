@@ -4830,3 +4830,8 @@ from Employees
 where Salary > 50000
 order by Salary desc
 
+select top 5
+FirstName, LastName 
+from Employees 
+order by Salary desc
+
