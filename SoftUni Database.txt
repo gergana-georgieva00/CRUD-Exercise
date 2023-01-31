@@ -4855,3 +4855,6 @@ select FirstName + ' ' + IsNull(MiddleName, '') + ' ' + LastName as [Full Name],
 	   JobTitle
 from Employees
 
+select distinct JobTitle 
+from Employees
+
