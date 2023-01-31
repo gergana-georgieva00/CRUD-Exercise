@@ -4862,3 +4862,7 @@ select top 10 * from Projects
 order by StartDate,
 		 [Name]
 		 
+select top 7 FirstName, LastName, HireDate
+from Employees
+order by HireDate desc
+
