@@ -808,3 +808,10 @@ GO
 ALTER TABLE Peaks WITH CHECK ADD CONSTRAINT FK_Peaks_Mountains
 FOREIGN KEY(MountainId) REFERENCES Mountains (Id)
 GO
+
+
+
+
+select PeakName
+from Peaks
+order by PeakName
