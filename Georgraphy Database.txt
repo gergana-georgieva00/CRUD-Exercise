@@ -822,3 +822,12 @@ where ContinentCode = 'EU'
 order by [Population] desc,
 		 CountryName
 
+select [CountryName], [CountryCode],
+case [CurrencyCode]
+when 'EUR' then 'Euro'
+else 'Not Euro'
+end
+as [Currency]
+from Countries
+order by CountryName
+
