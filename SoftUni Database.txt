@@ -4846,3 +4846,7 @@ order by
 		LastName desc,
 		MiddleName asc
 		
+create view V_EmployeesSalaries as 
+select FirstName, LastName, Salary
+from Employees
+
