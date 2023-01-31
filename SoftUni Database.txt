@@ -4802,3 +4802,5 @@ select [Name] from Departments
 
 select FirstName, LastName, Salary from Employees
 
+select FirstName, MiddleName, LastName from Employees
+
