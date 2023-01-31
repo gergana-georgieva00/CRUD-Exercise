@@ -4835,3 +4835,7 @@ FirstName, LastName
 from Employees 
 order by Salary desc
 
+select FirstName, LastName
+from Employees
+where DepartmentId <> 4
+
