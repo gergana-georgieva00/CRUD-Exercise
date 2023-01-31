@@ -4800,3 +4800,5 @@ select * from Departments
 
 select [Name] from Departments
 
+select FirstName, LastName, Salary from Employees
+
