@@ -4797,3 +4797,6 @@ GO
 
 
 select * from Departments
+
+select [Name] from Departments
+
