@@ -4224,3 +4224,9 @@ USE [master]
 GO
 ALTER DATABASE [Diablo] SET  READ_WRITE 
 GO
+
+
+
+select [Name]
+from Characters
+order by [Name]
